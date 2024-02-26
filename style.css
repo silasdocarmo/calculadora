@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 80vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.8em;
+}
+
+p {
+    color: #fff;
+    font-size: 0.7em;
+    margin-bottom: 2rem;
+}
+
+.dev {
+    margin-top: 50px;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#display {
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: #2c2c2c;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: end;
+    padding: 1rem;
+    font-size: 20pt;
+    /* font-weight: bolder; */
+}
+
+.buttons {
+    padding: 1rem;
+    margin-top: -20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quarto {
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    color: #2c2c2c;
+    border: none;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.button-clear {
+    padding: 3px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 240px;
+    border-radius: 4px;
+    width: 80px;
+    border: none;
+    background-color: darkred;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.button-clear:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #2c2c2c;
+    border: none;
+}
+
+.button-equal {
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    color: #2c2c2c;
+    border: none;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    background-color: #d75413;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.button-equal:hover {
+    background-color: #fff;
+    color: #2c2c2c;
+    border: none;
+}
